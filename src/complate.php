@@ -5,9 +5,9 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 extract($_POST);
 $errors = [];
 
-$db_host = 'localhost';
-$db_user = 'root';
-$db_password = 'root';
+$db_host = 'app';
+$db_user = 'app_passwd';
+$db_password = 'test';
 $db_db = 'test';
 
 $mysqli = @new mysqli(
@@ -21,7 +21,7 @@ if ($mysqli->connect_error) {
     $errors[] = "[{$mysqli->connect_errno}]::MySQLのエラーです";
     
 } else {
-  $query  = "INSERT INTO `form` (`namae1`, `namae2`, `namae3`, `namae4`, `address`, `tel`, `otona`, `Kodomo`, `time`, `eiga`, `payment`, `kaiinn`, `Profession`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+  $query  = "INSERT INTO `form` (`namae1`, `namae2`, `namae3`, `namae4`, `address`, `tel`, `otona`, `kodomo`, `time`, `eiga`, `payment`, `kaiinn`, `Profession`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
   $stmt   = $mysqli->prepare($query);
   try {
     $stmt->bind_param(

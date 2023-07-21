@@ -48,63 +48,63 @@ if (empty($payment)) {
         <div class="mb-3 row">
           <label for="namae1" class="col-sm-2 col-form-label">名前（姓）</label>
           <div class="col-sm-10">
-            <input type="text" name="namae1" readonly class="form-control-plaintext" id="namae1" value="<?php echo $_POST{
-                                                                                                          'namae1'} ?>">
+            <input type="text" name="namae1" readonly class="form-control-plaintext" id="namae1" value="<?php echo $_POST[
+                                                                                                          'namae1'] ?>">
           </div>
         </div>
         <div class="mb-3 row">
           <label for="namae2" class="col-sm-2 col-form-label">名前（名）</label>
           <div class="col-sm-10">
-            <input type="text" name="namae2" readonly class="form-control-plaintext" id="namae2" value="<?php echo $_POST{
-                                                                                                          'namae2'} ?>">
+            <input type="text" name="namae2" readonly class="form-control-plaintext" id="namae2" value="<?php echo $_POST[
+                                                                                                          'namae2'] ?>">
           </div>
           <div class="mb-3 row">
             <label for="namae3" class="col-sm-2 col-form-label">ふりがな（姓）</label>
             <div class="col-sm-10">
-              <input type="text" name="namae3" readonly class="form-control-plaintext" id="namae3" value="<?php echo $_POST{
-                                                                                                            'namae3'} ?>">
+              <input type="text" name="namae3" readonly class="form-control-plaintext" id="namae3" value="<?php echo $_POST[
+                                                                                                            'namae3'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="namae4" class="col-sm-2 col-form-label">ふりがな（名）</label>
             <div class="col-sm-10">
-              <input type="text" name="namae4" readonly class="form-control-plaintext" id="namae4" value="<?php echo $_POST{
-                                                                                                            'namae4'} ?>">
+              <input type="text" name="namae4" readonly class="form-control-plaintext" id="namae4" value="<?php echo $_POST[
+                                                                                                            'namae4'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="address" class="col-sm-2 col-form-label">住所</label>
             <div class="col-sm-10">
-              <input type="text" name="address" readonly class="form-control-plaintext" id="address" value="<?php echo $_POST{
-                                                                                                              'address'} ?>">
+              <input type="text" name="address" readonly class="form-control-plaintext" id="address" value="<?php echo $_POST[
+                                                                                                              'address'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="tel" class="col-sm-2 col-form-label">電話番号</label>
             <div class="col-sm-10">
-              <input type="text" name="tel" readonly class="form-control-plaintext" id="tel" value="<?php echo $_POST{
-                                                                                                      'tel'} ?>">
+              <input type="text" name="tel" readonly class="form-control-plaintext" id="tel" value="<?php echo $_POST[
+                                                                                                      'tel'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="otona" class="col-sm-2 col-form-label">席（大人）</label>
             <div class="col-sm-10">
-              <input type="text" name="otona" readonly class="form-control-plaintext" id="otona" value="<?php echo $_POST{
-                                                                                                          'otona'} ?>">
+              <input type="text" name="otona" readonly class="form-control-plaintext" id="otona" value="<?php echo $_POST[
+                                                                                                          'otona'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="kodomo" class="col-sm-2 col-form-label">席（子供）</label>
             <div class="col-sm-10">
-              <input type="text" name="kodomo" readonly class="form-control-plaintext" id="kodomo" value="<?php echo $_POST{
-                                                                                                            'kodomo'} ?>">
+              <input type="text" name="kodomo" readonly class="form-control-plaintext" id="kodomo" value="<?php echo $_POST[
+                                                                                                            'kodomo'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="time" class="col-sm-2 col-form-label">時間</label>
             <div class="col-sm-10">
-              <input type="text" name="time" readonly class="form-control-plaintext" id="time" value="<?php echo $_POST{
-                                                                                                        'time'} ?>">
+              <input type="text" name="time" readonly class="form-control-plaintext" id="time" value="<?php echo $_POST[
+                                                                                                        'time'] ?>">
             </div>
           </div>
           <div class="mb-3 row">
